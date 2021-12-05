@@ -1,0 +1,982 @@
+body{
+    background-image: url(../img/bg.jpg);
+    
+}
+.header{
+    min-height: 107.82px;
+    width: 1870px;
+    background-color: #ED7200;
+    z-index: 2;
+    -webkit-clip-path: ellipse(75% 81% at 50% 20%);
+    clip-path: ellipse(75% 81% at 50% 20%);
+    box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+    
+}
+.logo{
+    left: 201px;
+    top: 1px;
+    position: absolute;
+}
+.menu{
+    left: 627px;
+    top: 25px;
+    position: absolute;
+}
+.nav-item a{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:700;
+    text-align: center;
+
+}
+.pad-100{
+    padding-left: 100px;
+}
+
+.boder-menu{
+    border: 2px white solid;
+    border-radius: 15px;
+}
+.textdamsen{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 397px;
+    top: 45px;
+    color: white;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100px;
+}
+.content{
+    min-height: 800px;
+    position: relative;
+}
+
+.logodamsen{
+    left: 10.42%;
+    top: 7.22%;
+    position: absolute;
+}
+.khicau1{
+    left:18px;
+    top: 220px;
+    position: absolute;
+}
+.khicau2{
+    left:807px;
+    top: 18px;
+    position: absolute;
+}
+.khicau3{
+    left:1029px;
+    top: -20px;
+    position: absolute;
+    z-index: -1;
+}
+.team{
+    left:1052px;
+    top: -110px;
+    position: absolute;
+}
+.welcom{
+    left:10px;
+    top: 428px;
+    position: absolute;
+    z-index: 2;
+}
+.bentrai{
+    left: 10%;
+    top: 320px;
+    position: absolute;
+}
+.giua{
+    left: 1045px;
+    top: 320px;
+    position: absolute;
+}
+.benphai{
+    left: 1120px;
+    top: 320px;
+    position: absolute;
+}
+.nen-mini1{
+    left: 1120px;
+    top: 320px;
+    position: absolute;
+}
+.nen-mini2{
+    left: 1120px;
+    top: 490px;
+    position: absolute;
+}
+.nen-mini3{
+    left: 1120px;
+    top: 660px;
+    position: absolute;
+}
+.vecuaban{
+    left: 67%;
+    right: 17.03%;
+    top: 38%;
+    bottom: 61.74%;
+    position: absolute;
+}
+.text-top{
+    width: 830px;
+    height: 150px;
+    top: 43%;
+    left: 13%;
+    position: absolute;
+}
+.text-top p{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #23221F;
+    opacity: 0.7;
+}
+.text-top1{
+    width: 830px;
+    height: 150px;
+    top: 40.5%;
+    left: 13%;
+    position: absolute;
+}
+.text-top1 p{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #23221F;
+    opacity: 0.7;
+}
+.text-bott{
+    width: 830px;
+    height: 150px;
+    top: 65%;
+    left: 17%;
+    position: absolute;
+}
+.text-bott p{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+.textvecuaban{
+    position: absolute;
+    left: 70.3%;
+    right: 20.04%;
+    top: 39%;
+    bottom: 63.86%;
+}
+.textvecuaban p{
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 41px;
+    color: white;
+    width: 300px;
+}
+.goive{
+    width:398px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    left: 1180px;
+    top: 400px;
+    position: absolute;
+}
+.goive input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.soluongve{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    left: 1180px;
+    top: 460px;
+}
+.soluongve input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.ngay{
+    width: 224px;
+    height: 45px;
+    border-radius: 20px;
+    left: 1355px;
+    top: 460px;
+    position: absolute;
+}
+.ngay input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+
+.hoten{
+    width:398px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    left: 1180px;
+    top: 520px;
+    position: absolute;
+}
+.hoten input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+
+.sdt{
+    width:398px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    left: 1180px;
+    top: 580px;
+    position: absolute;
+}
+.sdt input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+
+.email{
+    width:398px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    left: 1180px;
+    top: 640px;
+    position: absolute;
+}
+.email input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.btndatve{
+    width: 320px;
+    background-color: #FF000A;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    position: absolute;
+    top: 700px;
+    left: 1220px;
+    color: #FFFFFF;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 41px;
+}
+.cotrai{
+   
+    position: absolute;
+    left: -6%;
+    right: 14.41%;
+    top: 8%;
+    
+    transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+    z-index: -1;
+}
+.cophai{
+    position: absolute;
+    left: 67%;
+    top: 4.61%;
+    transform: rotate(9.58deg);
+    z-index: -1;
+}
+.text-header-sukien{
+    width: 600px;
+    position: absolute;
+    
+    height: 100px;
+    left: 660px;
+    top: 144px;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 100px;
+    color: #FFFFFF;
+
+}
+.text-header-lienhe{
+    width: 600px;
+    position: absolute;
+    
+    height: 100px;
+    left: 750px;
+    top: 144px;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 100px;
+    color: #FFFFFF;
+
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1000s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 10} 
+  to {opacity: 10}
+}
+
+@keyframes fade {
+  from {opacity: 10} 
+  to {opacity: 10}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.box{
+    margin-top: 300px;
+    
+}
+.card-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Text */
+
+    color: #23221F;
+}
+.where{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+
+    color: #6C7272;
+}
+.card-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    display: flex;
+    align-items: center;
+
+    color: #444444;
+}
+.card-price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FA7D09;
+    
+}
+.xemchitiet{
+    background: #FF000A;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 70%;
+
+}
+.fa-calendar-alt{
+    color: #FFB809;
+}
+.card{
+    border-radius: 16px;
+}
+.card img{
+    
+}
+.icon-adress{
+    left: 1165px;
+    top: 355px;
+    position: absolute;
+}
+.text-adress{
+    left: 1220px;
+    top: 355px;
+    position: absolute;
+}
+.text-adress p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 26px;
+    color: #23221F;
+    opacity: 0.7;
+}
+.text-adress h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.icon-email{
+    left: 1165px;
+    top: 535px;
+    position: absolute;
+}
+.text-email{
+    left: 1220px;
+    top: 535px;
+    position: absolute;
+}
+.text-email p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 26px;
+    color: #23221F;
+    opacity: 0.7;
+}
+.text-email h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.icon-phone{
+    left: 1165px;
+    top: 705px;
+    position: absolute;
+}
+.text-phone{
+    left: 1220px;
+    top: 705px;
+    position: absolute;
+}
+.text-phone p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 26px;
+    color: #23221F;
+    opacity: 0.7;
+}
+.text-phone h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.lienhe-ten{
+    width:293px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    top: 50%;
+    left: 13%;
+    position: absolute;
+}
+.lienhe-ten input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.lienhe-email{
+    width:475px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+}
+.lienhe-email input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.lienhe-phone{
+    width:293px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    top: 57%;
+    left: 13%;
+    position: absolute;
+}
+.lienhe-phone input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.lienhe-diachi{
+    width:475px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    top: 57%;
+    left: 30%;
+    position: absolute;
+}
+.lienhe-diachi input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.lienhe-mess{
+    width:475px ;
+    background: #FFFFFF;
+    height: 45px;
+    border-radius: 20px;
+    top: 64%;
+    left: 13%;
+    position: absolute;
+}
+.lienhe-mess textarea{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.btn-lienhe{
+    width: 320px;
+    background-color: #FF000A;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    position: absolute;
+    top: 730px;
+    left: 480px;
+    color: #FFFFFF;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+}
+.info-thanhtoan{
+    position: absolute;
+    left: 1200px;
+    top: 305px;
+}
+.text-info-thanhtoan{
+    position: absolute;
+    left: 1225px;
+    top: 315px;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.vecong{
+    position: absolute;
+    left: 350px;
+    top: 305px;
+}
+.text-vecong{
+    position: absolute;
+    left: 385px;
+    top: 315px;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.input-tienthanhtoan {
+    position: absolute;
+    width: 233px; 
+    left: 350px;
+    top: 400px;
+}
+.input-tienthanhtoan input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-tienthanhtoan label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-soluongve{
+    position: absolute;
+    width: 130px;
+    left: 600px;
+    top: 400px;
+}
+.input-soluongve input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-soluongve label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-ngaysudung{
+    position: absolute;
+    width: 233px; 
+    left: 750px;
+    top: 400px;
+}
+.input-ngaysudung input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-ngaysudung label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-info-lienhe{
+    position: absolute;
+    width: 380px; 
+    left: 350px;
+    top: 480px;
+}
+.input-info-lienhe input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-info-lienhe label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-phone{
+    position: absolute;
+    width: 233px; 
+    left: 350px;
+    top: 560px;
+}
+.input-phone input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-phone label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-email{
+    position: absolute;
+    width: 380px; 
+    left: 350px;
+    top: 640px;
+}
+.input-email input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-email label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-sothe{
+    position: absolute;
+    width: 379px;
+    left: 1200px;
+    top: 400px;
+}
+.input-sothe input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-sothe label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-hotenthe{
+    position: absolute;
+    width: 379px;
+    left: 1200px;
+    top: 480px;
+}
+.input-hotenthe input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-hotenthe label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-ngayhethan{
+    position: absolute;
+    width: 379px;
+    left: 1200px;
+    top: 560px;
+}
+.input-ngayhethan input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-ngayhethan label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.input-cvv{
+    position: absolute;
+    width: 113px;
+    left: 1200px;
+    top: 640px;
+}
+.input-cvv input{
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+.input-cvv label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.btn-thanhtoan{
+    position: absolute;
+    background: #FF000A;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    width: 350px;
+    color: #FFFFFF;
+    top: 730px;
+    left: 1220px;
+}
+.welcom-thanhtoan{
+    left:40px;
+    top: 360px;
+    position: absolute;
+    z-index: 2;
+}
+.text-header-thanhtoanthanhcong{
+    width: 900px;
+    position: absolute;
+    
+    height: 100px;
+    left: 530px;
+    top: 144px;
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 100px;
+    color: #FFFFFF;
+
+}
+.biathanhtoan{
+    position: absolute;
+    top: 300px;
+    left: 180px;
+}
+.maqr{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.loaive{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+
+    color: #FFC226;
+}
+.ok{
+    position: absolute;
+    font-size: 20px;
+    top: 225px;
+    margin-left: 77px;
+
+}
+.tichxanh{
+    margin-left: 77px;
+}
+.welcome-xemve{
+    position: absolute;
+    z-index: 2;
+    top: 410px;
+    left: -10px;
+}
+.btn-taive{
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    background: #FF000A;
+    color: #FFFFFF;
+    left: 850px;
+}
+.btn-guimail{
+    font-family: iCiel Koni;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    background: #FF000A;
+    color: #FFFFFF;
+    left: 950px;
+}
+.sukien-detail{
+    position: absolute;
+    width: 1400px;
+    top: 370px;
+    left: 240px;
+    height: 450px;
+    
+}
+.daudong{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* or 150% */
+
+    
+    color: #FA7D09;
+}
+.text-thuong{
+    font-size: 18px;
+}
+.anhsukien{
+    border-radius: 16px;
+}
+.phone{
+    position: absolute;
+    left: 1300px;
+    top: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 20px;
+}
